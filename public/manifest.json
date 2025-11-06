@@ -1,0 +1,22 @@
+{
+  "name": "Ferma Mea",
+  "short_name": "Ferma",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#e8ffe8",
+  "theme_color": "#3ba55d",
+  "icons": [
+    {
+      "src": "icons/vaca.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/frunza.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

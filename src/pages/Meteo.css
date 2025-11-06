@@ -1,0 +1,66 @@
+.meteo-container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%);
+  color: #000 !important; /* text negru în toată secțiunea */
+  padding: 40px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.meteo-container h2 {
+  color: #0d47a1 !important; /* albastru închis pentru titlu */
+  margin-bottom: 20px;
+}
+
+.meteo-container input {
+  background-color: #ffffff !important; /* fundal alb curat */
+  color: #000000 !important; /* text negru clar */
+  border: 1px solid #999 !important;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.meteo-container input::placeholder {
+  color: #555 !important;
+}
+
+.meteo-container button {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meteo-container button:hover {
+  background-color: #1565c0;
+}
+
+.weather-card {
+  margin-top: 30px;
+  background-color: #ffffff !important; /* card alb curat */
+  color: #000000 !important; /* text negru */
+  border-radius: 16px;
+  padding: 25px;
+  display: inline-block;
+  min-width: 300px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card h3 {
+  color: #0d47a1;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 18px;
+  margin: 6px 0;
+}

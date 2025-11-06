@@ -1,0 +1,109 @@
+.culturi-container {
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #222;
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-section input,
+.form-section select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.calendar-label {
+  width: 100%;
+  text-align: left;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.export-btn {
+  margin-top: 15px;
+  background-color: #28a745;
+}
+
+.export-btn:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .form-section {
+    flex-direction: column;
+  }
+}
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ---- Responsive pentru mobil ---- */
+@media (max-width: 768px) {
+  .culturi-container {
+    padding: 0.5rem;
+    overflow-x: auto;
+  }
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 900px; /* forțează scroll */
+    white-space: nowrap;
+  }
+
+  th, td {
+    padding: 0.4rem;
+    text-align: center;
+  }
+
+  input, button {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+  }
+}
